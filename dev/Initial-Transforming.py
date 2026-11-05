@@ -105,7 +105,7 @@ merged_df.to_csv("revised-subscriber-data.csv", index=False)
 
 # Creating a clean SQL database
 
-out_con = sqlite3.connect("cleaned-cademycode.db")
+out_con = sqlite3.connect("cleaned-cademycode-GitHub.db")
 
 cmc_courses.to_sql("cademycode_courses", out_con, if_exists="replace", index=False)
 
