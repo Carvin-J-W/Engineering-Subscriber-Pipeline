@@ -31,17 +31,19 @@ The project uses Python's standard library modules sqlite3, logging, unittest, a
 Install the only third-party dependency with:
 pip install pandas
 
-### Main Set-Up
+### Main Set-Up:
 
-To run the code you will need a meta directory that does not need a specific name but needs to house dev, production, and run_pipeline.sh. Inside of dev make sure you have downloaded: cademycode.db, cademycode-updated.db, Initial-Transforming.py (or Jupyter version), inspect-database.py, test-database.py, and update-database.py. The production directory should be made but empty (only after a successful pipeline run will a database appear). Please look at the github directory set up as it mimics what it should look like in your computer. The logs will create themselves once the code is run. In steps run:
-1. Initial-Transforming.py (or Jupyter version)
-2. Then run_pipeline.sh
+To run the code you will need a meta directory that does not need a specific name but needs to house dev, production, and run_pipeline.sh. Inside of dev make sure you have downloaded: cademycode.db, cademycode-updated.db, Initial-Transforming.py (or Jupyter version), inspect-database.py, test-database.py, and update-database.py. The production directory should be made but empty (only after a successful pipeline run will a database appear). Please look at the github directory set up as it mimics what it should look like in your computer. The logs will create themselves once the code is run. 
 
-If successful both your systems output in Git Bash will tell you:
+In order run in Git Bash, with your working directory at the 'meta' directory:
+1. Initial-Transforming.py (After a successful run check for cleaned-cademycode-GitHub.db in the dev directory)
+2. Then in Git Bash run "bash run_pipeline.sh" 
+
+If successful your systems output in Git Bash will tell you (at the end):
 "New data detected. Deploying database...
 Production database updated.
 Pipeline completed successfully."
-and the last line of your changelog will be "(*Date Ran*) - INFO - Database updated. 1000 new rows added to cleaned-cademycode-GitHub.db.". 
+and, secondly the last line of your changelog will be "(*Date Ran*) - INFO - Database updated. 1000 new rows added to cleaned-cademycode-GitHub.db.". 
 
 If you have any issues please feel free to email me at carvinjwilson@gmail.com and I will assist you.
 
