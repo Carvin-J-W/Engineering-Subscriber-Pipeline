@@ -1,1 +1,29 @@
+This is a copy of not all but a good portion of changelog.log. You will see many incomplete runs where I was doing a lot of debugging and testing. 
 
+2026-11-03 14:50:50,510 - INFO - Read database cademycode_updated.db: 10 courses, 13 jobs, 6000 students
+2026-11-03 14:50:50,519 - INFO - Student data successfully cleaned: 6000 rows cleaned.
+2026-11-03 14:50:50,533 - INFO - Read database cleaned-cademycode.db: 10 courses, 13 jobs, 6000 students
+2026-11-03 14:50:50,535 - INFO - New student identification complete. 0 new student(s) found.
+2026-11-03 14:50:50,537 - INFO - Student validation passed. 0 rows validated
+2026-11-03 14:50:50,537 - INFO - Database already up-to-date.
+2026-11-03 14:54:06,494 - INFO - Read database cademycode_updated.db: 10 courses, 13 jobs, 6000 students
+2026-11-03 14:54:06,504 - INFO - Student data successfully cleaned: 6000 rows cleaned.
+2026-11-03 14:54:06,519 - INFO - Read database cleaned-cademycode.db: 10 courses, 13 jobs, 6000 students
+2026-11-03 14:54:06,521 - INFO - New student identification complete. 0 new student(s) found.
+2026-11-03 14:54:06,524 - INFO - Student validation passed. 0 rows validated
+2026-11-03 14:54:06,524 - INFO - Database already up-to-date.
+2026-11-04 11:03:42,160 - INFO - Read database cademycode_updated.db: 10 courses, 13 jobs, 6000 students
+2026-11-04 11:03:42,167 - INFO - Student data successfully cleaned: 6000 rows cleaned.
+2026-11-04 11:03:42,180 - INFO - Read database cleaned-cademycode-GitHub.db: 10 courses, 13 jobs, 5000 students
+2026-11-04 11:31:24,981 - INFO - Read database cademycode_updated.db: 10 courses, 13 jobs, 6000 students
+2026-11-04 11:31:24,989 - INFO - Student data successfully cleaned: 6000 rows cleaned.
+2026-11-04 11:31:25,001 - INFO - Read database cleaned-cademycode-GitHub.db: 10 courses, 13 jobs, 5000 students
+2026-11-04 11:43:08,152 - INFO - Read database cademycode_updated.db: 10 courses, 13 jobs, 6000 students
+2026-11-04 11:43:08,159 - INFO - Student data successfully cleaned: 6000 rows cleaned.
+2026-11-04 11:43:08,172 - INFO - Read database cleaned-cademycode-GitHub.db: 10 courses, 13 jobs, 5000 students
+2026-11-04 11:57:10,824 - INFO - Read database cademycode_updated.db: 10 courses, 13 jobs, 6000 students
+2026-11-04 11:57:10,831 - INFO - Student data successfully cleaned: 6000 rows cleaned.
+2026-11-04 11:57:10,843 - INFO - Read database cleaned-cademycode-GitHub.db: 10 courses, 13 jobs, 5000 students
+2026-11-04 11:57:10,844 - INFO - New student identification complete. 1000 new student(s) found.
+2026-11-04 11:57:10,846 - INFO - Student validation passed. 1000 rows validated
+2026-11-04 11:57:10,854 - INFO - Database updated. 1000 new rows added to cleaned-cademycode-GitHub.db.
